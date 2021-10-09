@@ -1,10 +1,13 @@
 #bin/usr/python3
 #Created by : @e_f_l_6_6_6
+import os
+os.system('pip install colorama')
+os.system('pip install hashlib')
+time.sleep(2)
 import hashlib 
 import colorama
 import time
 from bunner import *
-import os
 import random
  
 banner()
